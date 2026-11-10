@@ -1,0 +1,77 @@
+# ---------- Documents / Office ----------
+*.pdf
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.rtf
+
+# ---------- Archives / backups ----------
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.bak
+*.backup
+*.old
+*.sql
+*.dump
+
+# ---------- Large media ----------
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mkv
+*.wav
+*.psd
+*.ai
+*.swf
+*.iso
+*.exe
+*.msi
+
+# ---------- Logs / temp / cache ----------
+*.log
+*.tmp
+*.temp
+*.cache
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------- Dependencies ----------
+node_modules/
+vendor/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+# db_config/
+
+# ---------- Project folders with uploaded / generated files ----------
+attachment/
+reports/
+text_file/
+media/
+old/
+patch_10302018/
+test/
+*- Copy.php
